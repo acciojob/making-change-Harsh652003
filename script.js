@@ -20,10 +20,10 @@ const makeChange = (c) => {
     change.q = Math.floor(c / coinValues.q);
     c %= coinValues.q;
 
-	 change.d= math.floor(c/coinValues.d)
+	 change.d= Math.floor(c/coinValues.d)
 	c%=coinValues.d
 
-	change.n= math.floor(c/coinValues.n)
+	change.n= Math.floor(c/coinValues.n)
 	c%=coinValues.n
 
 	change.p=c
@@ -34,5 +34,5 @@ const makeChange = (c) => {
 
 
 // Do not the change the code below
-const c = prompt("Enter c: ");
-alert(JSON.stringify(makeChange(c)));
+// const c = prompt("Enter c: ");
+// alert(JSON.stringify(makeChange(c)));
