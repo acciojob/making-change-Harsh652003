@@ -8,12 +8,12 @@ const makeChange = (c) => {
         p: 0  
     };
 
-    // Define coin values in cents
+   
     const coinValues = {
-        q: 25, 
-        d: 10, 
-        n: 5,  
-        p: 1   
+        q: 0.25, 
+        d: 0.10, 
+        n: 0.5,  
+        p: 0.01   
     };
 
     
